@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+.search_field {
+	width: 400px;
+	margin: auto;
+}
+
+.search_div {
+	display: -moz-box;
+	-moz-box-align: center;
+	-moz-box-pack: center;
+	width: 400px;
+	text-align: left;
+}
+
+.submit {
+	float: right;
+}

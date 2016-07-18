@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+.add_field {
+	width: 400px;
+	margin: auto;
+}
+
+.add_div {
+	display: -moz-box;
+	-moz-box-align: center;
+	-moz-box-pack: center;
+	width: 400px;
+}
+
+lable {
+	float: left;
+}
+
+input {
+	float: right;
+}

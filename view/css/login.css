@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+.login_fieldset {
+	width: 400px;
+	margin: auto;
+}
+
+.login_div {
+	width: 400px;
+	display: -moz-box;
+	-moz-box-align: center;
+	-moz-box-pack: center;
+}
+
+lable {
+	float: left;
+	text-align:justify;
+	-moz-text-align-last:justify;
+}
+
+input {
+	float: right;
+}
