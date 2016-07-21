@@ -4,6 +4,15 @@ require_once '/program/ZendStudio/project/emp-manage2.0/model/admin-service.clas
 //receive user input
 $username = $_POST['username'];
 $password = $_POST['password'];
+$checkcode = $_POST['checkcode'];
+
+//check whether the checkcode is correct
+session_start();
+$valid_checkcode = $_SESSION['checkcode'];
+if (!($checkcode == $valid_checkcode)) {
+    header("Location: ../view/login.php?errno=2");
+    exit();
+}
 
 //check whether user want to save login info
 if (isset($_POST['save_user'])) {
